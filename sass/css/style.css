@@ -1,14 +1,16 @@
 /*******************************************************************************
 
-		HEADERSIDA
+		HEADERSIDA #CF649A#CF649A#CF649A#CF649A#CF649A
 
 *******************************************************************************************/
+header {
+	 background-color: white;
+}
 h1 {
-  color: #669999; 
+	color: #669999; 
   }
 .navbar {
-	border-bottom: 1px solid #CF649A;
-}
+	border-bottom: 1px solid #669999;
 }
 /*# sourceMappingURL=style.css.map */
 p {
@@ -16,19 +18,26 @@ p {
 
 }
 .btn-primary {
-	background-color: #CF649A; 
+	background-color: #669999; 
 
 
 }
 .btn-primary:hover {
-	background-color: #669999;
+	background-color: black;
 
 }
 hr {
-    border-color: #CF649A;
+    border-color: #669999;
     
 }
 @media (min-width: 768px) {
+	.navbar-default.affix .navbar-header .navbar-brand {
+		color: black;
+		font-size: 14px; 
+	}
+	.navbar-default.affix .navbar-header .navbar-brand:hover {
+		color: #669999;
+	}
 	.navbar-default .navbar-header .navbar-brand{
 		color: #669999;
 	
@@ -38,12 +47,15 @@ hr {
 		color: #669999;
 	}
 	.navbar-default .navbar-header .navbar-brand:hover {
-		color: #CF649A;
+		color: black;
 	}
 	.navbar-default .nav > li > a:hover {
 
-		color: #CF649A;
+		color: black;
 		}
+	.navbar-default.affix .nav > li > a:hover {
+		color: #669999;
+	}
 }
 /***********************************************************************************
 
