@@ -13,55 +13,94 @@ h1 {
 	border-bottom: 1px solid #669999;
 }
 /*# sourceMappingURL=style.css.map */
-p {
+header .header-content .header-content-inner p {
 	color: #669999; 
 
 }
 .btn-primary {
-	background-color: #669999; 
+	background-color: #CF649A; 
 
 
 }
 .btn-primary:hover {
-	background-color: black;
+	background-color: #669999;
 
 }
 hr {
     border-color: #669999;
     
 }
-@media (min-width: 768px) {
-	.navbar-default.affix .navbar-header .navbar-brand {
-		color: black;
+.navbar-default.affix .navbar-header .navbar-brand {
+		color: #CF649A;
 		font-size: 14px; 
-	}
-	.navbar-default.affix .navbar-header .navbar-brand:hover {
-		color: #669999;
-	}
-	.navbar-default .navbar-header .navbar-brand{
-		color: #669999;
-	
-	}
-	.navbar-default .nav > li > a,
-	.navbar-default .nav > li > a:focus {
-		color: #669999;
-	}
-	.navbar-default .navbar-header .navbar-brand:hover {
-		color: black;
-	}
-	.navbar-default .nav > li > a:hover {
-
-		color: black;
-		}
-	.navbar-default.affix .nav > li > a:hover {
-		color: #669999;
-	}
 }
+.navbar-default.affix .navbar-header .navbar-brand:hover {
+	color: #669999;
+}
+.navbar-default .navbar-header .navbar-brand{
+		color: #CF649A;
+	
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+		color: #CF649A;
+}
+.navbar-default .navbar-header .navbar-brand:hover {
+		color: #669999;
+}
+.navbar-default .nav > li > a:hover {
+		color: #669999;
+}
+.navbar-default.affix .nav > li > a:hover {
+		color: #669999;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #669999 !important;
+  
+ }
+ .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: #CF649A;
+	}
 /***********************************************************************************
 
 	Annat
 
 ************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 .bg-primary {
-	background-color: #669999;
+	background-color: #CF649A;
 }
+.btn-default {
+	color: white;
+	background-color: #669999;
+
+}
+.portfolio-box .portfolio-box-caption {
+	opacity: 1;
+	
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+	opacity: 1;
+}
+
+
+
+
+.portfolio-box-caption:hover {
+    background: hsla(180, 20%, 50%, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
