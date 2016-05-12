@@ -84,14 +84,20 @@ hr {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
 	opacity: 1;
 }
-
-
-
-
 .portfolio-box-caption:hover {
     background: hsla(180, 20%, 50%, 0.8);
 }
+.bg-dark {
+	background-color: #CF649A;
+}
+a {
+	color: #669999;
 
+}
+a:hover {
+	color: #669999;
+
+}
 
 
 
