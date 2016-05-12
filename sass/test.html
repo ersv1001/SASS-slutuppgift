@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Din guide till Sass</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">Start</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Tillbehör</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Videoguider</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Kodexempel</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+            <img src="img/sass4.gif">
+                <h1>Vad kul att du vill lära dig Sass för vi vill lära dig Sass</h1>
+                <hr>
+                <p>När man jobbar med Sass är det viktigt att tänka på två grejer. Ha kul och ge järnet!!</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Starta din resa</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Nu kör vi!!!!</h2>
+                    <hr class="light">
+
+                    <p class="text-faded">SASS är ett annat sätt för dig att skriva CSS. SASS tillåter dig till exempel att använda variabler vilket gör det lättare att ändra saker på din hemsida utan skriva lika mycket kod. </p>
+                    <a href="#" class="btn btn-default btn-xl">Get Started!</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Vad du behöver</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 text-center">
+                    <div class="service-box">
+                       <a href="http://koala-app.com/"> <img class="fa fa-4x fa-diamond wow bounceIn text-primary test" src="img/koala.gif" alt="bild på en koala"></a>
+                        <h3>Koala</h3>
+                        <p class="text-muted">Det här programmet gör det lättare för dig att kompilera dina Sass filer.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 text-center">
+                    <div class="service-box">
+                        
+                       <a href="http://Sass-lang.com/"> <img class="fa fa-4x fa-paper-plane wow bounceIn text-primary test" data-wow-delay=".1s" src="img/sass4.gif" alt="bild på Sass"></a>
+                        <h3>Sass</h3>
+                        <p class="text-muted">Här är Sass.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 text-center">
+                    <div class="service-box">
+                        
+                      <a href="https://www.sublimetext.com/3">  <img class="fa fa-4x fa-newspaper-o wow bounceIn text-primary test" data-wow-delay=".2s" src="img/sublime.gif"></a>
+                      <h3>Sublime text 3</h3>
+                        <p class="text-muted">Inget måste men notepad++ har ingen <a href="http://meta.stackexchange.com/questions/184108/what-is-syntax-highlighting-and-how-does-it-work">syntax highlighting</a> för Sass, och kan därför bli rätt svårt att se vad du har gjort.
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+
+                    
+                        <iframe width="100%" height="297.500" src="https://www.youtube.com/embed/pw1DeLy2Xsw" frameborder="0" allowfullscreen></iframe>
+                       
+                   
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                     <iframe width="100%" height="297.500" src="https://www.youtube.com/embed/r0uf7tKnOao" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                     <iframe width="100%" height="297.500" src="https://www.youtube.com/embed/I_kBr3p-pr4" frameborder="0" allowfullscreen></iframe>
+                </div>
+               
+
+                    
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>En exempelsida skriven med Sass</h2>
+                <a href="exempel.html" class="btn btn-default btn-xl wow tada">Kom o titta!</a>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Exempel på vad du kan göra med Sass</h2>
+                    <hr class="primary">
+                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+					<h2 class="section-heading">Exempel på vad du kan göra med Sass</h2>
+                    <hr class="primary">
+                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+					<h2 class="section-heading">Exempel på vad du kan göra med Sass</h2>
+                    <hr class="primary">
+                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>123-456-6789</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>
+
+</html>
