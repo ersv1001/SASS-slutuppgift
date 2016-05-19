@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	<link rel="stylesheet" href="exempel.css" type="text/css">
 	<meta charset="utf-8">
-	
+
+	<title> Vad du kan göra med Sass</title>
 	
 	
 	</head>
 	<body>
 	<div class="container">
 		<div class="sasskod">
+		<h1> Exempelsida gjord med Sass</h1>
+		<h2> Variablar</h2>
+		<p class="forord"> När man jobbar med css kan det vara jobbigt att byta färg om man använder färgen på flera olika ställen. Med en variabel räcker det att du ändrar färgens egenskaper på själva variabeln. Se exempel nedan. </p>
+		<h3> Sass</h3>
+		<div class="exempel"><p> $a:hover: 
+		<span class="variabel">#000;</span><br>
+		//Här ger man variabeln värdet #000; vilket är svart. Du kan döpa variabeln till vad du vill men det blir lättare om du ger den ett namn till vad den ska användas till. <br> 
+		<span class="class">a:hover</span>
+		{<br>
+		<span class="variabel">color</span>
+		:$a:hover;<br>} <br>
+		//Här gör man alla a:hover svart.<br> Fördelen med detta är om man vill ändra alla a:hover till en annan färg behöver du endast ändra varibalen $a:hover istället för att byta färg på alla. </p>
+		</div>
 		
 		</div>
 	</div>

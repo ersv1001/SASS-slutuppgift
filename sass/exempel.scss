@@ -1,0 +1,26 @@
+$rubrik: #669999;
+$primary: #272822;
+$class: #F92672;
+$variabel: #48BEEF;
+$p: #cf649a;
+h1, h2, h3 {
+	color:$rubrik;
+}
+.exempel {
+	background-color: $primary;
+	padding:10px;
+	color: lightgrey;
+}
+.variabel {
+	color: $variabel;
+}
+.class {
+	color: $class;
+}
+
+
+
+.forord{
+	color: $p;
+}
+
