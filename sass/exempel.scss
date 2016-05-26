@@ -5,11 +5,13 @@ $variabel: #48BEEF;
 $p: #cf649a;
 h1, h2, h3 {
 	color:$rubrik;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 .exempel {
 	background-color: $primary;
 	padding:10px;
 	color: lightgrey;
+	max-width: 45%;
 }
 .variabel {
 	color: $variabel;
@@ -23,14 +25,22 @@ h1, h2, h3 {
 
 .forord{
 	color: $p;
+	max-width: 45%;
 }
 
 .varden {
-	padding-left: 30px;
+	padding-left: 45px;
 }
 .vinge {
 	padding-left: 10px;
 }
 .ul {
-	padding-left: 15px;
+	padding-left: 25px;
+}
+p{
+	 font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+.link{
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	color:$rubrik
 }

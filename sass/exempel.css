@@ -1,10 +1,12 @@
 h1, h2, h3 {
-  color: #669999; }
+  color: #669999;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 .exempel {
   background-color: #272822;
   padding: 10px;
-  color: lightgrey; }
+  color: lightgrey;
+  max-width: 45%; }
 
 .variabel {
   color: #48BEEF; }
@@ -13,15 +15,23 @@ h1, h2, h3 {
   color: #F92672; }
 
 .forord {
-  color: #cf649a; }
+  color: #cf649a;
+  max-width: 45%; }
 
 .varden {
-  padding-left: 30px; }
+  padding-left: 45px; }
 
 .vinge {
   padding-left: 10px; }
 
 .ul {
-  padding-left: 15px; }
+  padding-left: 25px; }
+
+p {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+
+.link {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #669999; }
 
 /*# sourceMappingURL=exempel.css.map */
