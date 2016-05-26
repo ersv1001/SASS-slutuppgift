@@ -32,6 +32,9 @@ p {
 
 .link {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  color: #669999; }
+  color: #669999; 
+  text-decoration: none;
+  font-size: 150%;
+}
 
 /*# sourceMappingURL=exempel.css.map */
