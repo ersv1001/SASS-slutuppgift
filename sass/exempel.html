@@ -15,17 +15,41 @@
 		<h2> Variablar</h2>
 		<p class="forord"> När man jobbar med css kan det vara jobbigt att byta färg om man använder färgen på flera olika ställen. Med en variabel räcker det att du ändrar färgens egenskaper på själva variabeln. Se exempel nedan. </p>
 		<h3> Sass</h3>
-		<div class="exempel"><p> $a:hover: 
+<div class="exempel"><p> $a:hover: 
 		<span class="variabel">#000;</span><br>
 		//Här ger man variabeln värdet #000; vilket är svart. Du kan döpa variabeln till vad du vill men det blir lättare om du ger den ett namn till vad den ska användas till. <br> 
 		<span class="class">a:hover</span>
 		{<br>
 		<span class="variabel">color</span>
 		:$a:hover;<br>} <br>
-		//Här gör man alla a:hover svart.<br> Fördelen med detta är om man vill ändra alla a:hover till en annan färg behöver du endast ändra varibalen $a:hover istället för att byta färg på alla. </p>
-		</div>
+		//Här gör man alla a:hover svart.<br> Fördelen med detta är om man vill ändra alla a:hover till en annan färg behöver du endast ändra varibalen $a:hover istället för att byta färg på alla.  </p>
+</div>
+	<h2> Nesting </h2>
+		<p class="forord"> Nesting gör så att man ser en tydlig hierarki likt den i HTML koden.</p>
+		<h3> Sass </h3>
+			<div class="exempel">
+<p> <span class="class">nav</span> { <br>
+ <span class="ul"> <span class="class">ul</span> { <br> </span>
+   <span class="varden"> <span class="variabel">margin</span>: 0; <br> </span>
+  <span class="varden">  <span class="variabel">padding</span>: 0; <br> </span>
+   <span class="varden"> <span class="variabel">list-style</span>: none; <br> </span> 
+  } <br>
+
+  <span class="class"><span class="ul">li</span></span> { <span class="variabel">display</span>: inline-block; } <br>
+
+ <span class="class"><span class="ul"> a</span></span> { <br>
+   <span class="varden"> <span class="variabel">display</span>: block; <br></span> 
+   <span class="varden"> <span class="variabel">padding</span>: 6px 12px; <br></span> 
+    <span class="varden"><span class="variabel">text-decoration</span>: none; <br></span> 
+  <span class="vinge">} <br></span>
+} <br>
+</p>
+
+
 		
+
+		
+			</div>
 		</div>
-	</div>
 	</body>
 </html>
